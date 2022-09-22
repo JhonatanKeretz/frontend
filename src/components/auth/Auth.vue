@@ -45,7 +45,7 @@ export default {
                  .catch(showError)
         },
         singup(){
-            axios.post(`/${baseApiUrl}/singup`, this.user)
+            axios.post(`${baseApiUrl}/signup`, this.user)
                  .then(() => {
                     this.$toasted.global.defaultSuccess()
                     this.user = {}

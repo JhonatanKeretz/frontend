@@ -7,7 +7,7 @@
         icon="fa fa-folder" color="#d54d50" />
         <Stat title="Artigos" :value="stat.articles"
         icon="fa fa-file" color="#3bc480" />
-        <Stat title="Usuários" :value="stat.user"
+        <Stat title="Usuários" :value="stat.users"
         icon="fa fa-user" color="#3282cd" />
       </div>
   </div>
